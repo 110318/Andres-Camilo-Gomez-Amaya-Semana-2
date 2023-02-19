@@ -1,0 +1,235 @@
+#headeravicii{
+    font-size: 30px;
+    color: aliceblue;
+    font-weight: bold;
+    background-color: rgb(46, 46, 46);
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+header *{
+    width: 30%;
+
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* navigator*/
+.nav-link{
+  color: whitesmoke;
+  font-size: 14px;
+  font-weight: bold;
+ 
+ 
+}
+.nav-link:hover{
+  color: black;
+  background-color: whitesmoke;
+}
+.navbar-brand{
+  color: whitesmoke;
+}
+.navbar-brand:hover{
+  color: rgb(29, 29, 29);
+}
+/*main section*/
+.main{
+  background:url(images/bg.png)no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+
+}
+
+.main h3{
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+ 
+}
+
+.profile{
+  width: 200px;
+  position: relative;
+  left: 1000px;
+  bottom: 200px;
+}
+
+/*biography*/
+.biography{
+  padding-top: 50px;
+  background-color: rgb(16, 16, 16);
+}
+.biography img{
+  width: 600px;
+  padding: 0;
+}
+.biography h1{
+  color: whitesmoke;
+}
+.biography p{
+  color: whitesmoke;
+}
+
+/*animation*/
+.wrapper{
+  display: inline-flex;
+
+}
+.wrapper .static-txt{
+  font-size: 50px;
+  color: whitesmoke;
+  font-weight: 400;
+}
+.wrapper .dynamic-txt{
+  font-size: 50px;
+  color: rgb(255, 156, 156);
+  font-weight: 400;
+  padding: 20px;
+  
+}
+.dynamic-txt::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 60px;
+  width: 50px;
+  background-color: black;
+  border-left: 2px solid salmon;
+  animation: typing 1.5s steps(10) infinite;
+
+}
+@keyframes typing {
+  100%{
+    left: 400px;
+    margin: 0 -15px 0 15px;
+  }
+  
+}
+
+/*Section images*/
+.images {
+  background-color: rgb(16, 16, 16);
+}
+.images img{
+  width: 100%;
+  
+}
+.images h1 {
+  color: whitesmoke;
+}
+.images h2 {
+  color: salmon;
+}
+.images .col-lg-4{
+  padding: 25px;
+}
+
+
+.buttons>button{
+    background-color: transparent;
+    /*border: 1px solid #fa97c2;*/
+    border-radius: 8px;
+    box-shadow: #fa97c2 0 2px 5px 0;
+    box-sizing: border-box;
+    color: #fa97c2;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Amazon Ember",sans-serif;
+    font-size: 13px;
+    line-height: 29px;
+    padding: 0 10px 0 11px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    width: 100px;
+ 
+}
+
+
+
+
+
+/* CSS 
+.button-13 {
+  background-color: #fff;
+  border: 1px solid #d5d9d9;
+  border-radius: 8px;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  box-sizing: border-box;
+  color: #0f1111;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Amazon Ember",sans-serif;
+  font-size: 13px;
+  line-height: 29px;
+  padding: 0 10px 0 11px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  width: 100px;
+}
+
+.button-13:hover {
+  background-color: #f7fafa;
+}
+
+.button-13:focus {
+  border-color: #008296;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  outline: 0;
+}
+*/
+/*
+
+
+/* CSS 
+.button-74 {
+  background-color: #fbeee0;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-74:hover {
+  background-color: #fff;
+}
+
+.button-74:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-74 {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
+*/
