@@ -131,6 +131,19 @@ header *{
   padding: 25px;
 }
 
+.images img:hover{
+  border: 5px solid rgb(16, 16, 16);
+  opacity: 0.5;
+}
+.box-content{
+  color: whitesmoke;
+  width: 100%;
+  translate: translateY(-50% ) scale(0);
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transition: all 0.4s linear;
+}
 
 .buttons>button{
     background-color: transparent;
@@ -156,9 +169,41 @@ header *{
  
 }
 
+/*section timeline*/
+.timeline{
+  background: rgb(16, 16, 16);
+}
+.timeline h1{
+  color: whitesmoke;
+}
 
+.carousel{
+  position: relative;
+}
 
+.carousel-indicators{
+  top: 50px;
+  width: 75%;
+  margin-left: 14%;
+  position: static;
+  margin-bottom: 40px;
+}
+.container p{
+  color: whitesmoke;
+  padding-left: 25px;
+}
+.container h3{
+  color: whitesmoke;
+  padding-left: 25px;
 
+}
+ 
+/*footer*/
+footer{
+  padding: 25px;
+  margin: 0;
+  background: rgb(16, 16, 16);
+}
 
 /* CSS 
 .button-13 {
